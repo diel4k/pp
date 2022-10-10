@@ -1,0 +1,150 @@
+.logo{
+display: flex;
+justify-content: space-between;
+}
+.logo1-img{
+margin-top: 20px;
+margin-left: 20px;
+width: 50px;
+height: 50px;
+}
+.logo2-img{
+margin-top: 20px;
+margin-right: 20px;
+width: 50px;
+height: 50px;
+}
+.txt{
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
+    margin-top: 150px;
+    color: #B3B3B3;
+}
+input{
+    border: none ;
+    border-bottom: 1px black solid;
+    outline: none;
+    margin: 20px;
+}
+.input{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    margin-right: 350px;
+    margin-top: 20px;
+
+}
+.inp{
+    width: 240px;
+}
+.input::before {
+    display: flex;
+    justify-content: end;
+    width: 20px;
+    height: 20px;
+    background-image: url(./photo/Vector\ \(10\).png);
+    content: "";
+  }
+.input2{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    margin-right: 350px;
+    margin-top: 20px;
+}
+.input2::before {
+    display: flex;
+    justify-content: end;
+    width: 25px;
+    height: 27px;
+    background-image: url(./photo/Vector\ \(12\).png);
+    content: "";
+  }
+.input3{
+    display: flex;
+    justify-content: end;
+    position: relative;
+    margin-right: 350px;
+    margin-top: 20px;
+}
+.input3::before {
+    display: flex;
+    justify-content: end;
+    width: 25px;
+    height: 27px;
+    background-image: url(./photo/Vector\ \(12\).png);
+    content: "";
+}
+.button{
+    display: flex;
+    justify-content: end;
+    margin-right: 200px;
+    margin-top: 100px;
+    gap: 100px;
+}
+.button-ccc{
+background: #FFB21E;
+border: none;
+padding: 10px;
+border-radius: 6px;
+}
+.button-ccc:hover{
+background-color: #db981b;
+animation-name: pp1;
+animation-duration: 0.13s;
+animation-fill-mode: forwards;
+}
+.button2-ccc{
+border: none;
+border-bottom: 1px black solid;
+background-color: white;
+}
+@keyframes pp1 {
+25%{padding: 13px;}
+50%{padding: 15px;}
+75%{padding: 17px;}
+100%{padding: 20px;}
+}
+/* .instagram{
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    background-color: aquamarine;
+    position: absolute;
+}
+.instagram:hover{
+    animation-name: animation1;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+#instagram{
+    border-bottom:black 2px solid;
+    margin-left:70px;
+}
+#facebook{
+    border-bottom:black 2px solid;
+    margin-left:70px;
+}
+.facebook{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.facebook img{
+width: 30px;
+height: 30px;
+}
+.instagram img{
+    width: 30px;
+    height: 30px;
+    }
+img{
+    width: 100%;
+} */
+
+/* @keyframes animation1 {
+    0% {background-color: aquamarine;}
+    25% {background-color: aqua;}
+    75%{background-color: aquamarine;}
+} */
